@@ -29,98 +29,47 @@ nav ul li {
     margin: 0 23px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+}
+
 .left {
     font-size: 1.8rem;
 }
 
-.intro {
-    font-size: 80px;
-    padding: 30px;
+.left:hover {
+    color: blueviolet;
 }
 
 .home {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    height: 700px;
 }
 
-.home span {
-    color: rgb(3, 129, 170);
+.intro {
+    width: 30%;
+    height: 700px;
+    margin: 23px 0px;
+    font-size: 60px;
+}
+
+.intro span {
+    color: blueviolet;
 }
 
 .photo {
     display: flex;
-    justify-content: center;
+    width: 30%;
+    margin: 23px 0px;
+    align-items: center;
 }
 
 .photo img {
-    width: 95%;
-}
-
-
-@media (max-width: 900px) {
-    .left {
-        font-size: 1.2rem;
-    }
-
-    .intro {
-        font-size: 50px;
-        padding: 30px;
-    }
-}
-
-@media (max-width: 700px) {
-    .left {
-        display: none;
-    }
-
-    nav ul li {
-        margin: 0px 15px;
-    }
-}
-
-@media (max-width: 600px) {
-    .intro {
-        font-size: 20px;
-        padding: 10px;
-    }
-
-    .photo img {
-        width: 100px;
-    }
-
-}
-
-@media (max-width: 450px) {
-    .intro {
-        font-size: 10px;
-        padding: 5px;
-    }
-
-    nav ul li {
-        font-size: 10px;
-        padding: 4px;
-        text-align: center;
-    }
-
-    .photo img{
-        width: 70px;
-    }
-}
-
-@media (max-width: 350px) {
-    .intro {
-        font-size: 10px;
-        padding: 5px;
-    }
-
-    nav ul li {
-        font-size: 5px;
-        padding: 2px;
-        text-align: center;
-    }
-
-    .photo img{
-        width: 100px;
-    }
+    width: 100%;
 }
