@@ -73,3 +73,15 @@ nav ul li a:hover {
 .photo img {
     width: 100%;
 }
+
+.about{
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+
+.about h2{
+    color : rgb(120, 38, 208);
+    font-size: 35px;
+}
