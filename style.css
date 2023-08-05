@@ -53,10 +53,11 @@ nav ul li a:hover {
 }
 
 .intro {
-    width: 30%;
-    height: 700px;
+    width: 40%;
     margin: 23px 0px;
     font-size: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .intro span {
@@ -65,7 +66,7 @@ nav ul li a:hover {
 
 .photo {
     display: flex;
-    width: 30%;
+    width: 40%;
     margin: 23px 0px;
     align-items: center;
 }
@@ -74,14 +75,36 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.about{
-    font-size: 20px;
-    text-align: justify;
+.about {
     padding: 20px;
     margin: 10px;
 }
 
-.about h2{
-    color : rgb(120, 38, 208);
+.about div {
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 1.5px;
+    letter-spacing: 0.7px;
+}
+
+.about h2 {
+    color: rgb(120, 38, 208);
     font-size: 35px;
+    padding: 23px 0px;
+}
+
+.resume {
+    margin: 23px 0px;
+}
+
+.resume a {
+    padding: 10px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.resume a:hover{
+    background-color: white;
+    color: black;
 }
