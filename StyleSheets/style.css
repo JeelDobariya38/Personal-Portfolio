@@ -112,3 +112,33 @@ nav ul li a:hover {
     background-color: white;
     color: black;
 }
+
+.skill{
+    padding:30px;
+}
+
+.skill h2{
+    color: rgb(120, 38, 208);
+    font-size: 35px;
+    padding: 23px 0px;
+}
+
+.skill-set{
+    padding: 2px;
+}
+
+.skill-set .flex-container{
+    justify-content: space-around;
+}
+
+.skill-set .flex-container .flex-item {
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+    margin: 10px;
+}
+
+.skill-set .flex-container .flex-item img {
+    height: 200px;
+}
