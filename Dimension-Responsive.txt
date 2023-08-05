@@ -1,0 +1,3 @@
+Responsive Website Planning
+
+width-range: 1490-160

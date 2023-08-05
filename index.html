@@ -4,34 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="I am a 16-year-old boy with a deep passion for computer programming and a strong aspiration to become a young software engineer.">
+    <meta property="og:title" content="Jeel's Portfolio - Developer Portfolio">
+    <meta property="og:description" content="I am a 16-year-old boy with a deep passion for computer programming and a strong aspiration to become a young software engineer.">
+    <meta property="og:image" content="illustrator/homepage-graphic.jpg">
+    <meta property="og:url" content="https://jeeldobariya38.github.io/Personal-Portfolio/">
     <title>Jeel - Developer Portfolio</title>
+    <link rel="icon" href="icons/laptop-code-solid.ico" type="image/x-icon">
+    <link rel="stylesheet" href="utils.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="navigator">
             <div class="left">Jeel's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Skill</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="pagenotfound.html">Skill</a></li>
+                    <li><a href="pagenotfound.html">Projects</a></li>
+                    <li><a href="pagenotfound.html">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="home">
+        <div class="home" id="home">
             <div class="intro">
-                Hi, My name is <span>Jeel</span> and I am Passionate <span>Software Engineer</span>.
+                <div>
+                    Hi, My name is <span>Jeel</span>
+                    <div>and I am Passionate</div>
+                    <div class="space"><span id="domains">Software Engineer</span></div>
+                </div>
             </div>
             <div class="photo">
                 <img src="illustrator/homepage-graphic.jpg" alt="coding illustration">
             </div>
+        </div>
+        <hr>
+        <div class="about" id="about">
+            <h2>About Me!!</h2>
+            <div>
+                <p>I am a <i>16-year-old boy</i> with a deep passion for <i>computer programming</i> and a strong
+                aspiration to
+                become a young software engineer. From a young age, I have been captivated by the world of technology
+                and
+                the endless possibilities
+                it offers for problem-solving and innovation. My journey in coding started with languages like <em>C#,
+                    Python,
+                    and Java.</em> Through self-guided
+                learning and exploration, I have acquired a solid foundation in these languages and enjoy applying them
+                in
+                development of various projects.
+                The process of creating software that can positively impact people's lives truly fascinates me. With
+                each
+                project I undertake, I strive to
+                deepen my understanding of programming principles and expand my skill set. I eagerly embrace new
+                challenges
+                and am constantly seeking opportunities
+                to learn and grow as a developer. I am motivated by the idea of contributing to the development of
+                cutting-edge technologies and being part of
+                a collaborative team that pushes the boundaries of innovation. Beyond coding, I am an avid learner who
+                believes in the power of knowledge and its
+                potential to transform lives. I am dedicated to staying up-to-date with the latest advancements in the
+                tech
+                industry. I am excited to connect
+                with like-minded individuals, industry professionals, and mentors who share my passion for programming
+                and
+                can provide guidance and inspiration on
+                this rewarding journey. Together, let's shape the future through technology!</p>
+            </div>
+            
+            <div class="resume">
+                <a href="pagenotfound.html">Download Resume</a>
+            </div>
+        </div>
+        <div class="skill" id="skill">
+
+        </div>
+        <div class="project" id="project">
+
+        </div>
+        <div class="contact" id="contact">
+
         </div>
     </main>
 </body>
