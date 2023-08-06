@@ -143,3 +143,27 @@ nav ul li a:hover {
 .skill-set .flex-container .flex-item img {
     height: 200px;
 }
+
+.contact{
+    padding: 20px;
+}
+
+.contact h2{
+    color: rgb(120, 38, 208);
+    font-size: 35px;
+    padding: 13px 0px;
+    margin: 10px 0px;
+}
+
+.contact .contact-set ul{
+    margin: 5px;
+    list-style: none;
+}
+
+.contact .contact-set ul li{
+    display: inline;
+}
+
+.contact .contact-set ul li img {
+    height:40px;
+}

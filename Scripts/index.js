@@ -7,4 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 })
 
-console.log("debugging")
+function promptnumber()
+{
+    alert("You Can Whatapp me on 7016958781")
+}
