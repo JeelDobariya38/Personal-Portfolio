@@ -76,6 +76,10 @@
         font-size: 25px;
     }
 
+    .skill h2 {
+        font-size: 25px;
+    }
+
     .about div {
         font-size: 15px;
     }
@@ -84,6 +88,15 @@
 @media (max-width: 360px) {
     .navigator .right ul li {
         margin: 0 10px;
+    }
+
+    .skill-set .flex-container .flex-item{
+        padding:  30px 5px;
+        height: 150px;
+    }
+
+    .skill-set .flex-container .flex-item img {
+        height: 100px;
     }
 }
 

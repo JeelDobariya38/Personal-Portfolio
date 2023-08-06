@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    padding: 10px;
+}
