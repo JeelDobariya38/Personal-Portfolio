@@ -91,11 +91,11 @@ nav ul li a:hover {
     font-size: 20px;
 }
 
-.about h2 {
+/* .about h2 {
     color: rgb(120, 38, 208);
     font-size: 35px;
     padding: 23px 0px;
-}
+} */
 
 .resume {
     margin: 23px 0px;
@@ -117,11 +117,11 @@ nav ul li a:hover {
     padding:30px;
 }
 
-.skill h2{
+/* .skill h2{
     color: rgb(120, 38, 208);
     font-size: 35px;
     padding: 23px 0px;
-}
+} */
 
 .skill-set{
     padding: 2px;
@@ -148,12 +148,12 @@ nav ul li a:hover {
     padding:30px;
 }
 
-.project h2{
+/* .project h2{
     color: rgb(120, 38, 208);
     font-size: 35px;
     padding: 23px 0px;
     margin:5px 0px;
-}
+} */
 
 .project .project-set .project-item h3{
     color: rgb(120, 38, 208);
@@ -208,12 +208,12 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.contact h2{
+/* h2{
     color: rgb(120, 38, 208);
     font-size: 35px;
     padding: 13px 0px;
     margin: 10px 0px;
-}
+} */
 
 .contact .contact-set ul{
     margin: 5px;
