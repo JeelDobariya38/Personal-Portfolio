@@ -41,6 +41,14 @@
 }
 
 @media (max-width: 450px) {
+    .project .project-set .project-item h3 {
+        font-size: 20px;
+    }
+
+    .project .project-set .project-item .content{
+        font-size: 14px;
+    }
+
     .resume a {
         padding: 3px;
         font-size: 12px;
@@ -72,11 +80,7 @@
         width: 80%;
     }
 
-    .about h2 {
-        font-size: 25px;
-    }
-
-    .skill h2 {
+    h2 {
         font-size: 25px;
     }
 
@@ -116,6 +120,15 @@
 }
 
 @media (max-width: 300px) {
+
+    .project {
+        padding: 12px;
+    }
+
+    .skill {
+        padding: 12px;
+    }
+
     .home {
         height: 200px;
     }
@@ -128,13 +141,17 @@
         height: 50px;
     }
 
-    .about h2 {
+    h2 {
         font-size: 20px;
-        padding: 10px;
+        padding: 10px 0px;
     }
 
     .about div {
         font-size: 12px;
+    }
+
+    .project .project-set .project-item .content{
+        font-size: 10px;
     }
 }
 
@@ -184,9 +201,9 @@
         padding: 2px;
     }
 
-    .about h2 {
+    h2 {
         font-size: 15px;
-        padding: 5px;
+        padding: 5px 0px;
     }
 
     .about div {
