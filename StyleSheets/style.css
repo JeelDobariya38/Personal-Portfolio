@@ -175,11 +175,6 @@ nav ul li a:hover {
     padding: 5px 0px;
 }
 
-.project .project-set .project-item .tech tech {
-    display: inline-block;
-    padding: 0px 4px;
-}
-
 .project .project-set .project-item .links a {
     display: inline-block;
     padding: 6px 8px;
