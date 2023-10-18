@@ -6,6 +6,11 @@
     font-family: Poppins, sans-serif;
 }
 
+
+ul {
+    padding-left: 20px;
+}
+
 body {
     background-color: rgb(0, 0, 33);
     color: white;
@@ -197,6 +202,7 @@ nav ul li a:hover {
     margin: 20px 0px;
     padding: 10px 10px;
     background-color: rgb(0, 0, 50);
+    border-radius: 3vw;
 }
 
 .contact{
