@@ -216,6 +216,27 @@ nav ul li a:hover {
     margin: 10px 0px;
 } */
 
+.certificates {
+    padding: 20px;
+}
+
+.certify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.certify div{
+    width: 90%;
+    margin: 12px;
+}
+
+.certify div img{
+    width: 100%;
+}
+
 .contact .contact-set ul{
     margin: 5px;
     list-style: none;
