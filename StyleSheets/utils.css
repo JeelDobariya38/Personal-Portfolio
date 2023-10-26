@@ -1,18 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
-}
-
-h2 {
-    font-size: 35px;
-    padding: 23px 0px;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.flex-item{
-    padding: 10px;
+    color: black;
 }
