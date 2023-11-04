@@ -1,5 +1,25 @@
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+body {
+    font-size: 1rem;
+}
+
 .mx-20 {
     margin: 20px;
+}
+
+.mxtb-20 {
+    margin: 20px 0px;
 }
 
 .pd-20 {
@@ -17,7 +37,26 @@
     flex-wrap: wrap;
 }
 
+.side-by-side {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .screenfit {
     width: 100vw;
     height: 100vh;
+}
+
+.button a {
+    display: inline-block;
+    padding: 12px;
+    border: 3px solid white;
+    border-radius: 16px;
+    transition: background-color 0.2s;
+}
+
+.button a:hover {
+    background-color: white;
 }

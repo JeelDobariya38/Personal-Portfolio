@@ -1,4 +1,12 @@
+section {
+    padding: 20px 5px;
+}
+
 #hero-section .text {
     margin: 2px;
     font-size: 2.2rem;
+}
+
+#about-section div {
+    margin: 12px 0px;
 }
