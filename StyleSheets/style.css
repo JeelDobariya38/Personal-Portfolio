@@ -1,5 +1,4 @@
-.flexbox {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+#hero-section .text {
+    margin: 2px;
+    font-size: 2.2rem;
 }

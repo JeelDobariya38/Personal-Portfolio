@@ -1,0 +1,23 @@
+.mx-20 {
+    margin: 20px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.img-fit {
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.screenfit {
+    width: 100vw;
+    height: 100vh;
+}
