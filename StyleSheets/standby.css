@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.light-theme {
+    --headersection: #5910ad;
+    --primary-color: #007ACC;
+    --secondary-color: #7d2fd7;
+}
+
+.dark-theme {
+    
+}
+
 :root {
     --scrollbar-bg: linear-gradient(to top left, rgb(0, 57, 255), rgb(239, 249, 255));
     --scrollbar-bg-hover: linear-gradient(to top left, rgb(0, 0, 255), rgb(0, 232, 255));
@@ -25,4 +35,50 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: Helvetica, sans-serif, Georgia;
+    font-weight: 400;
+}
+
+.main-header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    background-color: var(--headersection);
+    font-size: 1.5rem;
+}
+
+.main-header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+.main-header nav div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.main-header nav div ul li {
+    margin: 12px;
+}
+
+.main-header nav div ul li a {
+    color: #00000080
+}
+
+.main-header nav div ul li a:hover {
+    color: #000000
 }
