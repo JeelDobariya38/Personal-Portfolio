@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --scrollbar-bg: linear-gradient(to top left, rgb(0, 57, 255), rgb(239, 249, 255));
+    --scrollbar-bg-hover: linear-gradient(to top left, rgb(0, 0, 255), rgb(0, 232, 255));
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-bg, #999);
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-bg-hover, #555);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
