@@ -22,35 +22,40 @@
 
 <body class="light-theme">
     <header class="main-header">
-        <nav>
+        <div>
             <div>Jeel's Portfolio</div>
-            <div>
-                <ul>
-                    <li><a href="#hero-section">Home</a></li>
-                    <li><a href="#about-section">About Me</a></li>
-                    <li><a href="#skill">Skill</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
+            <div class="navbar">
+                <a href="#hero-section">Home</a>
+                <a href="#about-section">About Me</a>
+                <a href="#skill">Skill</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact Me</a>
             </div>
-        </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <div class="flexbox screenfit" id="hero-section">
-                <div class="mx-20 pd-20">
-                    <p>
+        <section class="screen-fit-center">
+            <div class="container" id="hero-section">
+                <div class="hero-intro">
+                    <div>
                         <div class="text">Hi, My name is <span>Jeel</span></div>
                         <div class="text">and I am Passionate</div>
                         <div class="text"><span id="domains">Software Engineer</span></div>
-                    </p>
-                    <div class="side-by-side button mxtb-20">
+                    </div>
+                    <div class="side-by-side button">
                         <a download href="Resources/Resume.pdf">Download Resume</a>
                         <a download href="Resources/Resume.pdf">Download CV</a>
                     </div>
+                    <div class="side-by-side button contact">
+                        <div class="item"><a href="https://wa.me/7016958781"><img src="lightimg/whatsapp-min.jpeg" alt="Whatsapp"></a></div>
+                        <div class="item"><a href="https://www.instagram.com/jeel9582/"><img src="lightimg/insta-min.png" alt="Instagram"></a></div>
+                        <div class="item"><a href="https://github.com/JeelDobariya38"><img src="lightimg/github1-min.png" alt="Github"></a></div>
+                        <div class="item"><a href="https://www.linkedin.com/in/jeeldobariya"><img src="lightimg/linkedin-min.png" alt="Linkedin"></a></div>
+                        <div class="item"><a href="https://leetcode.com/Jeel_Dobariya/"><img src="lightimg/leetcode-min.png" alt="LeetCode"></a></div>
+                    </div>
                 </div>
-                <div class="mx-20">
+                <div class="hero-image">
                     <img src="Graphics/hero-section-photo.jpg" alt="coding illustration" class="img-fit">
                 </div>
             </div>
@@ -175,7 +180,7 @@
                             <br><b>Let's revolutionize authentication together! 🚀🔐</b>
                         </div>
                         <div>Technologies used:- Python</div>
-                        <div>
+                        <div class="projectlinks">
                             <a href="https://jeeldobariya38.github.io/Smart-Manager/">Checkout!!</a><a href="https://github.com/JeelDobariya38/Smart-Manager">Github</a>
                         </div>
                     </div>

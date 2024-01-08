@@ -12,42 +12,20 @@ h3 {
 
 body {
     font-size: 1rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
-.mx-20 {
-    margin: 20px;
-}
-
-.mxtb-20 {
-    margin: 20px 0px;
-}
-
-.pd-20 {
-    padding: 20px;
-}
-
-.img-fit {
-    width: 100%;
-}
-
-.flexbox {
+.screen-fit-center {
+    margin: 5vw;
+    min-width: 90vw;
+    min-height: 90vh;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
-.side-by-side {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.screenfit {
-    width: 100vw;
-    height: 100vh;
+.button {
+    margin-top: 20px;
 }
 
 .button a {
