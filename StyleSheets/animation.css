@@ -1,0 +1,9 @@
+@keyframes left-slide {
+    0% {transform: translateX(-600px); opacity: 0%;}
+    100% {transform: translateX(0px); opacity: 100%;}
+}
+
+@keyframes right-slide {
+    0% {transform: translateX(600px); opacity: 0%;}
+    100% {transform: translateX(0px); opacity: 100%;}
+}

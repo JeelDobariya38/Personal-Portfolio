@@ -39,3 +39,21 @@ section {
 .skill p {
     text-align: center;
 }
+
+.projects-container {
+    margin: 20px;
+}
+
+.project {
+    margin-top: 25px;
+    padding: 15px;
+    border: 5px solid yellowgreen;
+    border-radius: 30px;
+    animation-name: right-slide;
+    animation-duration: 1s;
+}
+
+.projects-container ul {
+    margin-left: 12px;
+    padding-left: 12px;
+}
