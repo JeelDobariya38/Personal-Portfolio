@@ -57,3 +57,18 @@ section {
     margin-left: 12px;
     padding-left: 12px;
 }
+
+.certificates-container {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certificate {
+    margin: 10px;
+    width: 400px;
+}
+
+.certificate img {
+    width: 100%;
+}
