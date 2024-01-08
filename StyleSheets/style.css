@@ -10,3 +10,32 @@ section {
 #about-section div {
     margin: 12px 0px;
 }
+
+#skill {
+    margin: 12px 0px;
+}
+
+.skills {
+    margin: 10px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin: 15px;
+    width: 200px;
+    border: 10px solid blueviolet;
+    padding: 10px;
+}
+
+.skill img {
+    width: 100%;
+    height: auto;
+}
+
+.skill p {
+    text-align: center;
+}
