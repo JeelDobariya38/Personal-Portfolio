@@ -8,6 +8,7 @@ html {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .title {
@@ -73,6 +74,10 @@ section {
     font-size: 2.2rem;
 }
 
+#about-section {
+    margin: 12px;
+}
+
 #about-section div {
     margin: 12px 0px;
 }
@@ -93,8 +98,10 @@ section {
 .skill {
     margin: 15px;
     width: 200px;
-    border: 10px solid blueviolet;
+    background-color: #4f0f7d;
+    border: 10px solid var(--skill-border-color);
     padding: 10px;
+    color: black;
 }
 
 .skill img {
@@ -113,7 +120,7 @@ section {
 .project {
     margin-top: 25px;
     padding: 15px;
-    border: 5px solid yellowgreen;
+    border: 5px solid var(--project-border-color);
     border-radius: 30px;
     opacity: 0;
 }
@@ -133,6 +140,13 @@ section {
 .projects-container ul {
     margin-left: 12px;
     padding-left: 12px;
+}
+
+button {
+    background-color: var(--btn-color);
+    border: none;
+    padding: 3px;
+    margin: 5px;
 }
 
 .certificates-container {
