@@ -9,17 +9,32 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-const observer = new IntersectionObserver(
+const leftanimationobserver = new IntersectionObserver(
     entries => {
         entries.forEach(entry => {
-            entry.target.classList.toggle("show", entry.isIntersecting);
+            entry.target.classList.toggle("leftshow", entry.isIntersecting);
         });
     },
     {
-        threshold: 0.2,
+        threshold: 0.1,
     }
 );
 
-projects.forEach(project => {
-    observer.observe(project);
-});
+const rightanimationobserver = new IntersectionObserver(
+    entries => {
+        entries.forEach(entry => {
+            entry.target.classList.toggle("rightshow", entry.isIntersecting);
+        });
+    },
+    {
+        threshold: 0.1,
+    }
+);
+
+for (let index = 0; index < projects.length; index++) {
+    if (index%2 == 0) {
+        leftanimationobserver.observe(projects[index]);
+        continue;
+    }
+    rightanimationobserver.observe(projects[index]);
+};

@@ -107,7 +107,13 @@ section {
     opacity: 0;
 }
 
-.show {
+.leftshow {
+    animation-name: left-slide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.rightshow {
     animation-name: right-slide;
     animation-duration: 1s;
     animation-fill-mode: forwards;
