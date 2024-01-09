@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+/* 
+    #3776DB 
+    #6137DB 
+    #9737DB 
+    #3741DC
+    #37AADB
+*/
+
 .light-theme {
     --headersection: #101444;
     --primary-color: #10072f;
@@ -11,10 +19,6 @@
     --skill-border-color: #6c3792;
     --project-border-color: #01097d;
     --btn-color: #81d9ff;
-}
-
-.dark-theme {
-    
 }
 
 :root {
