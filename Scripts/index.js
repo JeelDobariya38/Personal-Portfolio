@@ -13,10 +13,12 @@ const leftanimationobserver = new IntersectionObserver(
     entries => {
         entries.forEach(entry => {
             entry.target.classList.toggle("leftshow", entry.isIntersecting);
+            if (entry.isIntersecting)
+                leftanimationobserver.unobserve(entry.target);
         });
     },
     {
-        threshold: 0.1,
+        rootMargin: "10px",
     }
 );
 
@@ -24,10 +26,12 @@ const rightanimationobserver = new IntersectionObserver(
     entries => {
         entries.forEach(entry => {
             entry.target.classList.toggle("rightshow", entry.isIntersecting);
+            if (entry.isIntersecting)
+                rightanimationobserver.unobserve(entry.target);
         });
     },
     {
-        threshold: 0.1,
+        rootMargin: "10px",
     }
 );
 

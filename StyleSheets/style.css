@@ -19,7 +19,7 @@ header {
     z-index: 2;
 }
 
-.navbar {
+.navbar a {
     margin: 5px;
 }
 
@@ -169,7 +169,6 @@ button {
         margin-top: 100px;
     }
 }
-
 
 @media (max-width: 535px) {
     .hero-intro {
