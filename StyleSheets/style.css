@@ -3,6 +3,17 @@ html {
     scroll-padding: 200px;
 }
 
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+}
+
 header {
     z-index: 2;
 }
@@ -142,5 +153,17 @@ section {
 @media (max-width: 1200px) {
     .container {
         margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 535px) {
+    .hero-intro {
+        width: 90vw;
+        font-size: 10px;
+    }
+
+    .hero-image {
+        width: 90vw;
     }
 }
