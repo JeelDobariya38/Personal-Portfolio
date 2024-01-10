@@ -55,3 +55,8 @@ body {
     background-color: var(--headersection);
     padding: 12px;
 }
+
+
+footer {
+    background-color:  var(--headersection);
+}
