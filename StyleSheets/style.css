@@ -186,7 +186,11 @@ button {
     }
 }
 
-.attribution {
+footer {
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
+}
+
+.attribution {
+    padding: 12px;
 }
