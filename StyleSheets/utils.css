@@ -37,4 +37,21 @@ body {
 
 .button a:hover {
     background-color: white;
+    color: black;
+}
+
+.whatapp {
+    color: green;
+}
+
+.insta {
+    color: orangered;
+}
+
+.github {
+    color: rgb(175, 3, 254);
+}
+
+.linkedin {
+    color: rgb(12, 132, 223);
 }
