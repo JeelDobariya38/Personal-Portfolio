@@ -20,7 +20,7 @@ async function getLeetCodeStats(username) {
 }
   
 // Replace 'Jeel_Dobariya' with your actual LeetCode username
-const leetCodeUsername = 'Jeel_Dobariya';
+const leetCodeUsername = 'jeel9582';
 var rank = "";
 var solved = "";
 
